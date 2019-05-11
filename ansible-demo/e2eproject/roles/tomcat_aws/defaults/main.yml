@@ -1,6 +1,6 @@
 ---
 # defaults file for tomcat_aws
-region: us-east-2
+region: us-east-2b
 instance_type: t2.micro
-ami: ami-0b500ef59d8335eee  # Redhat
-keypair: Redhat practise
+ami: ami-0653e888ec96eab9b
+keypair: Ubuntu(Jenkin)

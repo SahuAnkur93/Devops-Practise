@@ -3,7 +3,7 @@
     key_name: "{{ keypair }}"
     aws_access_key: "{{ aws_access }}"
     aws_secret_key: "{{ aws_secret }}"
-    group: launch-wizard-23  # security group name
+    group: launch-wizard-37 # security group name
     instance_type: "{{ instance_type}}"
     image: "{{ ami }}"
     wait: true
@@ -13,7 +13,7 @@
       Name: "Demo"
     instance_tags:
       Name: "Demo"
-    vpc_subnet_id: "subnet-9215cbde"
+    vpc_subnet_id: "subnet-5f205625"
     assign_public_ip: yes
   register: ec2
     
